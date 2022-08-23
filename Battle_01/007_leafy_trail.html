@@ -1,0 +1,54 @@
+<div class="container">
+  <div class="wrapper">
+    <div class="left"></div>
+    <div class="middle"></div>
+    <div class="right"></div>
+  </div>
+</div>
+<style>
+  .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #0b2429;
+  }
+  .wrapper {
+    position: relative;
+    width: 250px;
+    height: 150px;
+  }
+  .left {
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    border-top-left-radius: 70%;
+    border-bottom-right-radius: 70%;
+    background: #1a4341;
+    z-index: 1;
+  }
+  .middle {
+    position: absolute;
+    right: 50;
+    width: 150px;
+    height: 150px;
+    border-top-left-radius: 70%;
+    border-bottom-right-radius: 70%;
+    background: #998235;
+    z-index: 2;
+  }
+  .right {
+    position: absolute;
+    right: 0;
+    width: 150px;
+    height: 150px;
+    border-top-left-radius: 70%;
+    border-bottom-right-radius: 70%;
+    background: #f3ac3c;
+    z-index: 3;
+  }
+</style>
