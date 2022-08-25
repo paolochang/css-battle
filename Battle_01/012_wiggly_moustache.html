@@ -1,0 +1,92 @@
+<div class="container">
+  <div class="wrapper">
+    <div class="side left">
+      <div class="edge leftEdge"></div>
+      <div class="sideInner"></div>
+    </div>
+    <div class="center">
+      <div class="centerInner"></div>
+    </div>
+    <div class="side right">
+      <div class="sideInner"></div>
+      <div class="edge rightEdge"></div>
+    </div>
+  </div>
+</div>
+<style>
+  .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    background: #f5d6b4;
+  }
+  .wrapper {
+    position: relative;
+    width: 260px;
+    height: 100px;
+  }
+  .side {
+    position: absolute;
+    top: 50px;
+    display: flex;
+    justify-content: center;
+    align-self: flex-end;
+    width: 100px;
+    height: 50px;
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+    background: #d86f45;
+  }
+  .left {
+    left: 0;
+  }
+  .right {
+    right: 0;
+  }
+  .sideInner {
+    width: 60px;
+    height: 30px;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    background: #f5d6b4;
+  }
+  .center {
+    position: absolute;
+    left: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    align-self: flex-start;
+    width: 100px;
+    height: 50px;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+    background: #d86f45;
+  }
+  .centerInner {
+    width: 60px;
+    height: 30px;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    background: #f5d6b4;
+  }
+  .edge {
+    position: absolute;
+    top: -10px;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background: #d86f45;
+  }
+  .leftEdge {
+    left: 0;
+  }
+  .rightEdge {
+    right: 0;
+  }
+</style>
