@@ -1,0 +1,52 @@
+<div class="container">
+  <div class="wrapper">
+    <div class="left"></div>
+    <div class="overlap"></div>
+    <div class="right"></div>
+  </div>
+</div>
+<style>
+  .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    background: #09042a;
+  }
+  .wrapper {
+    position: relative;
+    width: 250px;
+    height: 150px;
+  }
+  .left {
+    position: absolute;
+    left: 0px;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background: #7b3f61;
+  }
+  .right {
+    position: absolute;
+    right: 0px;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background: #e78481;
+  }
+  .overlap {
+    position: absolute;
+    top: 35px;
+    left: 85px;
+    width: 80px;
+    height: 80px;
+    transform: rotate(45deg);
+    border-radius: 0 95%;
+    background: #09042a;
+    z-index: 1;
+  }
+</style>
