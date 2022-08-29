@@ -1,0 +1,97 @@
+<div class="container">
+  <div class="wrapper">
+    <div class="ring dark up">
+      <div class="dot ivory"></div>
+    </div>
+    <div class="ring dark down">
+      <div class="dot ivory"></div>
+    </div>
+    <div class="spinner">
+      <div class="ring pink left">
+        <div class="dot"></div>
+      </div>
+      <div class="center"></div>
+      <div class="ring pink right">
+        <div class="dot"></div>
+      </div>
+    </div>
+  </div>
+</div>
+<style>
+  .container {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    background: #09042a;
+  }
+  .wrapper {
+    position: relative;
+    display: flex;
+    align-items: center;
+    width: 200px;
+    height: 166px;
+  }
+  .ring {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    width: 80px;
+    height: 80px;
+    z-index: 2;
+  }
+  .dot {
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    background: #09042a;
+  }
+  .dark {
+    background: #09042a;
+  }
+  .pink {
+    background: #e78481;
+  }
+  .ivory {
+    background: #f5bb9c;
+  }
+  .spinner {
+    display: flex;
+    width: 200px;
+    height: 100px;
+  }
+  .up {
+    position: absolute;
+    top: -10px;
+    left: 60px;
+  }
+  .down {
+    position: absolute;
+    bottom: -10px;
+    left: 60px;
+  }
+  .left {
+    position: absolute;
+    top: 43px;
+    left: 0px;
+  }
+  .center {
+    position: absolute;
+    top: 45px;
+    left: 73px;
+    width: 55px;
+    height: 70px;
+    background: #e78481;
+    z-index: 1;
+  }
+  .right {
+    position: absolute;
+    top: 43px;
+    right: 0px;
+  }
+</style>
