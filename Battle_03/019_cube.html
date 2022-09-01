@@ -1,0 +1,50 @@
+<div class="container">
+  <div class="wrapper">
+    <div class="lf"></div>
+    <div class="rt"></div>
+    <div class="bt"></div>
+  </div>
+</div>
+<style>
+  .container {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    background: #0b2429;
+  }
+  .wrapper {
+    position: relative;
+    display: flex;
+    width: 140px;
+    height: 210px;
+  }
+  .lf {
+    width: 0;
+    height: 0;
+    border-top: 70px solid transparent;
+    border-right: 70px solid #998235;
+    border-bottom: 70px solid #998235;
+  }
+  .rt {
+    width: 0;
+    height: 0;
+    border-top: 70px solid transparent;
+    border-left: 70px solid #1a4341;
+    border-bottom: 70px solid #1a4341;
+  }
+  .bt {
+    position: absolute;
+    right: 20;
+    bottom: 20;
+    width: 100px;
+    height: 100px;
+    background: #f3ac3c;
+    transform: rotate(45deg);
+    z-index: 1;
+  }
+</style>
