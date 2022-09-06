@@ -1,0 +1,71 @@
+<div class="container ppl">
+  <div class="ylw">
+    <div class="edge tlf ppl"></div>
+    <div class="edge blf ppl"></div>
+    <div class="mdl trt ppl"></div>
+    <div class="mdl brt ppl"></div>
+  </div>
+  <div class="brwn">
+    <div class="edge trt ppl"></div>
+    <div class="edge brt ppl"></div>
+    <div class="mdl tlf ppl"></div>
+    <div class="mdl blf ppl"></div>
+  </div>
+</div>
+<style>
+  .container {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+  }
+  .ppl {
+    background: #62306d;
+  }
+  .ylw {
+    position: relative;
+    width: 140px;
+    height: 100px;
+    background: #f7ec7d;
+  }
+  .brwn {
+    position: relative;
+    width: 60px;
+    height: 100px;
+    background: #e38f66;
+  }
+  .edge {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+  }
+  .mdl {
+    position: absolute;
+    width: 10px;
+    height: 10px;
+  }
+  .tlf {
+    top: 0;
+    left: 0;
+    border-bottom-right-radius: 100%;
+  }
+  .blf {
+    bottom: 0;
+    left: 0;
+    border-top-right-radius: 100%;
+  }
+  .trt {
+    top: 0;
+    right: 0;
+    border-bottom-left-radius: 100%;
+  }
+  .brt {
+    bottom: 0;
+    right: 0;
+    border-top-left-radius: 100%;
+  }
+</style>
