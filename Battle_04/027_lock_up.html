@@ -1,0 +1,61 @@
+<div class="ctr">
+  <div class="cir">
+    <div class="wrp">
+      <div class="qt"></div>
+      <div class="qt fill">
+        <div class="in"></div>
+      </div>
+      <div class="qt fill">
+        <div class="in"></div>
+      </div>
+    </div>
+  </div>
+</div>
+<style>
+  .ctr {
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    background: #e38f66;
+  }
+  .cir {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 200;
+    height: 200;
+    border-radius: 50%;
+    background: #aa445f;
+  }
+  .wrp {
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+    width: 140;
+    height: 140;
+  }
+  .qt {
+    width: 70;
+    height: 70;
+  }
+  .fill {
+    display: flex;
+    align-items: flex-end;
+    background: #f7ec7d;
+    border-radius: 0 100% 0 0;
+  }
+  .in {
+    width: 40;
+    height: 40;
+    background: #aa445f;
+    border-radius: 0 100% 0 0;
+  }
+  .rot {
+    transform: rotate(180deg);
+  }
+</style>
