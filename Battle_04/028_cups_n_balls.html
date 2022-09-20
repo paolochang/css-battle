@@ -1,0 +1,51 @@
+<div class="ctr">
+  <div class="wrap">
+    <div class="ele cir ol"></div>
+    <div class="ele dw yl"></div>
+    <div class="ele dw ol"></div>
+    <div class="ele cir yl"></div>
+    <div class="ele up yl"></div>
+    <div class="ele cir ol"></div>
+    <div class="ele cir yl"></div>
+    <div class="ele up ol"></div>
+  </div>
+</div>
+<style>
+  .ctr {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    background: #1a4341;
+  }
+  .wrap {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 260px;
+    height: 120px;
+  }
+  .ele {
+    width: 50;
+    height: 50;
+  }
+  .cir {
+    border-radius: 50%;
+  }
+  .up {
+    border-radius: 0 0 25px 25px;
+  }
+  .dw {
+    border-radius: 25px 25px 0 0;
+  }
+  .yl {
+    background: #f3ac3c;
+  }
+  .ol {
+    background: #998235;
+  }
+</style>
