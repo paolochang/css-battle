@@ -1,0 +1,43 @@
+<div class="ctr">
+  <div class="wrp">
+    <div class="bar dwn"></div>
+    <div class="bar up"></div>
+    <div class="bar dwn"></div>
+    <div class="bar up"></div>
+    <div class="bar dwn"></div>
+  </div>
+</div>
+<style>
+  .ctr {
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    background: #1a4341;
+  }
+  .wrp {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    width: 350;
+    height: 300;
+  }
+  .bar {
+    width: 50;
+    height: 200;
+  }
+  .up {
+    border-radius: 0 0 25px 25px;
+    background: #998235;
+  }
+  .dwn {
+    align-self: flex-end;
+    border-radius: 25px 25px 0 0;
+    background: #f3ac3c;
+  }
+</style>
