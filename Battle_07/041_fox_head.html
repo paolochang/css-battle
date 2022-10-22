@@ -1,0 +1,69 @@
+<div class="ctr">
+  <div class="wrp">
+    <div class="bl lf"></div>
+    <div class="bl rt"></div>
+    <div class="bl">
+      <div class="eye elf"></div>
+    </div>
+    <div class="bl">
+      <div class="eye ert"></div>
+    </div>
+    <div class="bl">
+      <div class="bt lf"></div>
+    </div>
+    <div class="bl">
+      <div class="bt rt"></div>
+    </div>
+  </div>
+</div>
+<style>
+  .ctr {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #293462;
+  }
+  .wrp {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0;
+    width: 100;
+    height: 140;
+  }
+  .bl {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50;
+    height: 50;
+    background: #fe5f55;
+  }
+  .eye {
+    width: 30;
+    height: 30;
+    border-radius: 50%;
+    background: #293462;
+  }
+  .elf {
+    transform: translateX(5px);
+  }
+  .ert {
+    transform: translateX(-5px);
+  }
+  .bt {
+    width: 50;
+    height: 50;
+    background: #293462;
+  }
+  .lf {
+    border-top-right-radius: 80%;
+  }
+  .rt {
+    border-top-left-radius: 80%;
+  }
+</style>
